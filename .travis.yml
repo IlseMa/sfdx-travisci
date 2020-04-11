@@ -1,6 +1,4 @@
 os: linux 
-arch: arm64 
-dist: xenial
 cache: false
 language: ruby
 env:
