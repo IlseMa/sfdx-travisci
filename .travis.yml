@@ -26,4 +26,5 @@ script:
 - sfdx force:org:display -u ciorg1
 - sfdx force:source:push -u ciorg1
 - sfdx force:apex:test:run -u ciorg1 --wait 10
+- sfdx force:source:deploy -p force-app/main/default -u DevHub
 - sfdx force:org:delete -u ciorg1 -p
