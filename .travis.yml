@@ -26,4 +26,4 @@ script:
 - sfdx force:org:display -u ciorg1
 - sfdx force:source:push -u ciorg1
 - sfdx force:apex:test:run -u ciorg1 --wait 10
-- sfdx force:org:delete -u ciorg -p
+- sfdx force:org:delete -u ciorg1 -p
