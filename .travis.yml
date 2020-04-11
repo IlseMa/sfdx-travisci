@@ -1,4 +1,3 @@
-sudo: true
 os: linux 
 arch: arm64 
 dist: xenial
